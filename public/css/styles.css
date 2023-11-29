@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.logo{
+    width: 200px;
+    justify-content: center;
+    
+}
+.barraBusq{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+
+
+.header{
+    background-color: #EAC926;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.cuotas{
+    text-align: center;
+}
+
+.menu{
+    padding :10px;
+    margin: auto;
+    color: white;
+    background-color: #1259c3;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    width: 20px;
+    
+ }
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+
+.login{
+    display: flex;
+    justify-content: center;
+    
+    border: solid 1px #ebebeb;
+    font-size: medium;
+    
+    
+}  
+
+.usuario{
+    margin: 20%;
+    display: flex;
+    padding: 20px;
+    
+    
+}
+
+.reg{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    border: solid 1px #ebebeb;
+    font-size: medium;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+
+.listasFlex{
+    display:flex;
+    justify-content: space-between;
+}
+
+.lista1{
+    padding: 5px;   
+    list-style: none;
+    text-align: left;
+    justify-content: space-between;
+    
+}
+
+.lista2{
+    padding: 5px;
+    list-style: none;
+    text-align: right;
+    margin-left: 80%;
+    position: absolute;
+    justify-content: space-between;
+}
+
+body{
+    font-size: 12px;
+    width: 100%;
+    padding: 1px;
+    margin: 1px;
+    size: 100%;
+    background-color: #ebebeb;
+    
+}
+
+
+main{
+    font-size: 13px;
+    width: 90%;
+    padding: 10px;
+    margin: 5%;
+    
+
+}
+
+.banner{
+    
+    width: 100%;
+    size-adjust: 100%;
+}
+
+.sectionFlex{
+    display:flex;
+}
+
+.ultvist{
+    font-size: 24px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 5%;
+    
+}
+
+.ofertas{
+    font-size: 24px;
+    text-align: center;
+    color: #666;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.precios{
+    font-size: 18px;
+}
+
+.descuentos{
+    font-size: 16px;
+    color: #39b54a;
+}
+.aline{
+     align-items: center;
+     justify-content: space-between;
+}
+   
+
+.contenedor{
+    display: block;
+    font-size: 16px;
+    width: 15rem;
+    margin: auto;
+    border: solid 1px #ebebeb;
+    background-color: white;
+    right: 20px;
+    top: -15px;
+    
+    
+
+    }
+
+
+#camion{
+    color:#39b54a;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: relative;
+        right: 20px;
+        top: -17px;
+        left: 35%;
+        
+         }
+.descripciones{
+    font-size: 16px;
+}
+
+.footer{
+    text-align: center;
+    padding: 4px 4px;
+    width: 100%;
+    font-size: medium;
+
+}
+
+.sectionFoot{
+    display: flex;
+}
+
+.footerh3{
+    color: #666;
+    font-weight: bolder;
+}
+.footerp{
+    color: gray;
+    font-weight: bold;
+}
+
+@media (min-width: 361px){
+   .lista1{
+    display: none;
+   } 
+   .lista2{
+    display: none;
+   }
+   .sectionFlex{
+        flex-wrap: wrap;
+   }
+   
+}
+
+@media (min-width: 769px){
+    .contenedor{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+     }
+    .lista1{
+        display:flex;
+    }
+    .lista2{
+        display:flex;
+    }
+    .menu{
+        display: none;
+
+    }
+    .sectionFlex{
+        flex-wrap: wrap;
+   }
+
+}
