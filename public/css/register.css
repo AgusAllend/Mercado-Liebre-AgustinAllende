@@ -11,17 +11,7 @@
     justify-content: center;
     
 }
-.barraBusq{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    border-radius: 5px;
-    align-items: center;
-    
-}
+
 
 
 .header{
@@ -55,6 +45,9 @@ a {
     font-size: 16px;
 }
 
+.cuotas{
+    text-align: center;
+}
 
 .menu{
     padding :10px;
@@ -84,6 +77,8 @@ main section{
     margin-bottom: 80px;
 }
 
+ 
+
 
 .titulo {
     font-size: 1.5rem;
@@ -96,17 +91,27 @@ main section{
     flex-wrap: wrap;
     }
 
-
-.card {
-    max-width: 310px;
-    background-color: #ffffff;
-    margin: 1.5rem;
-    border-radius: 0.5rem;
-}
-.card img {
+.form{
     width: 100%;
-    padding: 1rem;
 }
+    
+.input{
+    width: 100%;
+    height: 46px;
+    border-radius: 4px;
+    padding: 16px;
+    border: 1px #b4b4b4 solid;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.cardReg {
+        max-width: 400px;
+        width: 100%;
+        background-color: #ffffff;
+        padding: 3rem 2rem;
+        border-radius: 0.5rem;
+    }
+
 
 .containerLog {
     max-width: 90%;
@@ -151,6 +156,7 @@ button:hover{
     
     
 }
+
 
 
 
@@ -220,7 +226,7 @@ main{
     margin: auto;
     padding-top: 32px;
     padding-bottom: 32px;
-    flex-direction: row;
+    flex-direction: row-reverse;
     }
 
 
@@ -238,8 +244,7 @@ main{
         top: -17px;
         left: 35%;
         
-}
-
+         }
 .descripciones{
     font-size: 16px;
 }

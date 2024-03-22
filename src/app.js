@@ -23,3 +23,4 @@ app.get("/reg", (req, res) => {
     let htmlPath = path.resolve(__dirname, "./views/reg.html" );
     res.sendFile(htmlPath)
 })
+

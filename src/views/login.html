@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, inital scale=1">
-    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/login.css" rel="stylesheet">
     <title>MercadoLiebre</title>
     <script src="https://kit.fontawesome.com/ae112b6b14.js" crossorigin="anonymous"></script>
 </head>
@@ -13,49 +13,70 @@
         <img  class="logo", src="./images/logo-mercado-liebre.svg" alt=" ">
        </div> 
         <h3 class="cuotas"><i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de crédito.</i></h3>
+
+        <nav class="listasFlex">
+            <ul class="listasFlex">
+                <li><a href="#" >Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#" >Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+             </ul>
+            <ul class="listasFlex">
+                <li><a href="reg">Crea tu cuenta</a><i class="fa-solid fa-address-card"></i></li>
+                <li><a href="login">Ingresa</a><i class="fa-solid fa-right-to-bracket"></i></li>
+                <li><a href="#">Mis compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+            </ul>
+        </nav>
+         
         <div class="menu">
             <i class="fas fa-bars"></i>
         </div>
     </header>
     <main class="aline">
         <section class="login">
-           <form action="/login" method="post">
-            <p class="usuario">
+        <div class="containerFlexColumn">
+            <div class="cardLog containerFlexColumn">
+                <div class=".containerLog">
+                    <div class=".containerFlexColumn">
+                        <h2 class=".titulo">Inicia Sesión!</h2>
+                    </div>                   
+                </div>
+            <form class="form" action="/login" method="post">
+            
                 <label>Nombre de usuario</label>
-                <input type="text" name="usuario">
-            </p>
-            <p class="usuario">
+                <input class="input" type="text" name="usuario">
                 <label>Contraseña</label>
-                <input type="password" name="Contraseña">  
-            </p>
-            <button type="submit">enviar</button>
+                <input class="input" type="password" name="Contraseña">  
+            
+            <button class="btn-enviar" type="submit">enviar</button>
            </form>
+            </div>
+        </div>
         </section>
     </main>
-    <footer class="footer">
-        <br>
-        
-        <section>
-            <i class="fa-solid fa-credit-card" style="color: #1259c3;"></i>
-            <h3 class="footerh3">Pagá con tarjeta o en efectivo</h3>
-            <p class="footerp">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
-        </section>
+    <footer>
+           <div class="container">
+                <section>
+                    <i class="fa-solid fa-credit-card" style="color: #1259c3;"></i>
+                    <p><strong>Pagá con tarjeta o en efectivo</strong></p>
+                    <p class="footerp">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+                </section>
 
 
-        <section>
-            <i class="fa-solid fa-gift" style="color: #1259c3;"></i>
-            <h3 class="footerh3">Envío gratis desde $ 2.500</h3>
-            <p class="footerp">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
-        </section>
+                <section>
+                    <i class="fa-solid fa-gift" style="color: #1259c3;"></i>
+                    <p><strong>Envío gratis desde $ 2.500</p></strong>
+                    <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+                </section>
 
 
-        <section>
-            <i class="fa-solid fa-user-shield" style="color: #1259c3;"></i>
-            <h3 class="footerh3">Seguridad, de principio a fin</h3>
-            <p class="footerp">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
-        </section>
-        <br>
-
+                <section >
+                <i class="fa-solid fa-user-shield" style="color: #1259c3;"></i>
+                <p><strong>Seguridad, de principio a fin</p></strong>
+               <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+            </section>
+            </div>
+        <p class="copyright"> &copy; 1999-2020 MercadoLiebre S.R.L.</p>
     </footer>
 </body>
 </html>
