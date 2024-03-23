@@ -23,4 +23,7 @@ app.get("/reg", (req, res) => {
     let htmlPath = path.resolve(__dirname, "./views/reg.html" );
     res.sendFile(htmlPath)
 })
-
+app.post('/login', (req, res) => {
+    let htmlPath = path.resolve(__dirname, "./views/home.html");
+    res.sendFile(htmlPath)
+});

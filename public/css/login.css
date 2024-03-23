@@ -217,7 +217,21 @@ footer strong{
     display: flex;
 }
 
-@media (min-width: 361px){
+@media (max-width: 361px){
+    
+    .container{
+        display: block;
+    }
+
+
+    .barraBusq{
+        display: none;
+    }
+
+    .listasFlex{
+        display: none;
+    }
+
     nav.containerFlex {
         display: none;
     }
@@ -227,6 +241,7 @@ footer strong{
         margin: 0;
         margin-bottom: 1.5rem;
         border-radius: 0.5rem;
+        
     }
     .marginSeparador{
         margin: 16px;
@@ -249,11 +264,47 @@ footer strong{
     }
 }
 
-@media (min-width: 769px){
+@media (max-width: 769px){
+
+    .container{
+        display: block;
+    }
+
+    .barraBusq{
+        display: none;
+    }
+
+    .listasFlex{
+        display: none;
+    }
     nav.containerFlex {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .marginSeparador{
+        margin: 16px;
+    }
+    .card{
+        max-width: 325px;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1.5rem;
+        border-radius: 0.5rem;
+        
+    }
+    .logoBox{
+        max-width: 100%;
+    }
+    .formBusqueda{
+        max-width: 100%;
+        width: 100%;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    footer p{
+        max-width: 350px;
+        width: 100%;
     }
     li{
         padding: 8px;
@@ -267,10 +318,11 @@ footer strong{
 }
 
 @media (min-width: 1024px){
-    .formBusqueda{
-        max-width: 40%;
-        width: 40%;
+
+    .menu{
+        display: none;
     }
+
     nav.containerFlex {
         justify-content: space-between;
     }
